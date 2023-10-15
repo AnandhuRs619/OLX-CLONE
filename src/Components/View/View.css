@@ -1,0 +1,69 @@
+.viewParentDiv {
+  padding-top: 4em;
+  display: flex;
+}
+.viewParentDiv .imageShowDiv {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 70vw;
+}
+.viewParentDiv .imageShowDiv img {
+  width: 40vw;
+  height: 87vh;
+  object-fit: cover;
+}
+
+.viewParentDiv .rightSection {
+  margin-right: 60px;
+  margin-top: 3em;
+  width: 30vw;
+}
+
+.viewParentDiv .rightSection .productDetails :first-child {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #002f34;
+  font-size: 30px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.viewParentDiv .rightSection .productDetails .spana{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.viewParentDiv .rightSection .productDetails {
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.viewParentDiv .rightSection .contactDetails {
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.viewParentDiv .rightSection .contactDetails :first-child {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #002f34;
+  font-weight: 400;
+  padding: 0;
+}
+
+
+.divStyle {
+  
+  font-weight: bold;
+  padding: 1px;
+  border-radius: 6px;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
